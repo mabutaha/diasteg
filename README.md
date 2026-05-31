@@ -27,11 +27,11 @@ python validate_carrier.py -s "mysecretmessage" --prompt
 
 **2. Get a valid opening sentence**: 
 
-write one yourself, use an LLM, or find an existing text that already fits (see Example 3). Validate it by:
+Write one yourself, use an LLM, or find an existing text that already fits (see Example 3). Validate it by:
 ```bash
 python validate_carrier.py -s "mysecretmessage" "الجملة العربية هنا"
 ```
-From personal experience, Gemini worked best for constrained Arabic writing. Particularly 3.5 Flash and 3.1 Pro.
+From personal experience, Gemini was the best LLM for constrained Arabic writing. Particularly 3.5 Flash (with extended thinking) and 3.1 Pro.
 
 **3. Build the carrier.txt.** 
 
